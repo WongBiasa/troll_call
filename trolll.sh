@@ -87,7 +87,7 @@ printf '\n'
 printf "mencoba"
 load
 printf '\n'
-link ="https://id.jagreward.com/member/verify-mobile/$nomor"
+link="https://id.jagreward.com/member/verify-mobile/$nomor"
 curl -s $link
 printf '\n'
 fi
