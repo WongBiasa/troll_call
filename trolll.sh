@@ -73,7 +73,7 @@ load(){
 }
 banner
 
-link="https://id.jagreward.com/member/verify-mobile/$nomor"
+
 
 printf "1.Spam Call"
 printf '\n'
@@ -87,6 +87,7 @@ printf '\n'
 printf "mencoba"
 load
 printf '\n'
+link ="https://id.jagreward.com/member/verify-mobile/$nomor"
 curl -s $link
 printf '\n'
 fi
